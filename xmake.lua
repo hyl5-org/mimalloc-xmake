@@ -1,4 +1,4 @@
-target("mimalloc")
+target("mimalloc-xmake")
     set_kind("static")
     add_rules("mode.release")
     set_languages("c99", "cxx17")
